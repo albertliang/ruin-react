@@ -1,0 +1,37 @@
+.slick-slider {
+    cursor: grab;
+    width: 100vw;
+    overflow: visible;
+    padding-right: 5vw;
+}
+.slick-list{
+    overflow: visible !important;
+}
+.slick-slide{
+    padding-left: 5vw;
+}
+
+.slick-slide *{
+    text-align: left;
+}
+
+.iconExpand {
+    display: inline;
+}
+
+.iconExpand svg{
+	transition: .3s transform ease-in-out;
+}
+
+.iconExpand .collapsed svg{
+	transform: rotate(90deg);
+}
+
+@media(max-width: 760px){
+    .slick-slider {
+        padding-right: 10vw;
+    }
+    .slick-slide{
+        padding-left: 10vw;
+    }
+}

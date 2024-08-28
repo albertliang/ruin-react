@@ -1,0 +1,159 @@
+.roomWrapper {
+  /*width: 290px;*/
+  /*margin: 0 auto;*/
+  width: 300px;
+  height: 70px;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 7px;
+  /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+  display: flex;
+  cursor: pointer;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.25s ease-in-out;
+}
+
+.roomWrapper:hover{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  opacity: 0.7;
+}
+
+.user {
+  border: 2px solid #6cc457;
+}
+
+.friends {
+  border: 2px solid #48ace7;
+}
+
+.orgs {
+  border: 2px solid #ffa800;
+}
+
+.pubs {
+  border: 2px solid #737979;
+}
+
+.roomWrapper div img {
+  height: 100%;
+  width: 50px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+/* .roomIcon {
+  border-radius: 5px;
+} */
+
+.roomDetails {
+  width: 100%;
+  margin: 2px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.roomDetails p {
+  /*font-family: "Nunito Sans", sans-serif;*/
+  /*font-style: normal;*/
+  font-size: 11.8741px;
+  line-height: 16px;
+  color: #737979;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+.roomDetailsR_1 {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+.roomDetailsR_1 p:first-child {
+  font-weight: bold;
+}
+
+.roomGameName {
+  width: 175px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+
+.roomGameStart {
+  float: right !important;
+  width: 55px !important;
+  text-align: right !important;
+}
+
+.roomGameMode {
+  width: 210px;
+  justify-content: start;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+
+.roomDetailsR_2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #737979;
+  /*font-family: "Nunito Sans", sans-serif;*/
+  /*font-style: normal;*/
+  font-size: 11.8741px;
+  line-height: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+/*@media all and (max-width: 1023px) {*/
+/*  .roomWrapper {*/
+/*    margin: 0 auto;*/
+/*    margin-bottom: 15px;*/
+/*  }*/
+/*}*/
+
+/*@media all and (max-width: 500px) {*/
+/*    .roomWrapper {*/
+/*        width: 270px;*/
+/*    }*/
+/*} */
+
+/* @media all and (max-width: 340px) {
+	.roomWrapper {
+    width: 270px;
+  }
+} */
+
+.repeatable {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  max-width: 300px;
+}
+.repeatable .custom-checkbox {
+  min-width: 10%;
+}
+
+.repeatable .custom-checkbox input::before,
+.repeatable .custom-checkbox input::after,
+.repeatable .custom-checkbox label {
+  display: inline-block;
+  vertical-align: middle;
+}
+.repeatable .custom-checkbox label {
+  font-family: Nunito, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #737979;
+  width: 30px;
+  cursor: pointer;
+  user-select: none;
+}

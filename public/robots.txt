@@ -1,0 +1,4 @@
+Sitemap: https://ru-in.com/sitemap.xml
+
+User-agent: *
+Disallow: /admin/

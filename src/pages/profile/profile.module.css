@@ -1,0 +1,97 @@
+.profileContent {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+.profileContent .errorMessage {
+  color: #da5151;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.profileContent .successMessage {
+  color: #51da6f;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.avatarContainer {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.avatarContainer > div{
+  display: inline-block;
+}
+
+.avatarContainer img {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+}
+
+.avatarEditor {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.25s ease-in-out;
+}
+
+.avatarEditor:hover {
+  opacity: 0.9;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.formContent {
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  color: black;
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+}
+
+.formContent label {
+  display: block;
+}
+
+.formContent input,
+.formContent select,
+.formContent option {
+  width: 100%;
+  height: 35px;
+  outline: none;
+  padding: 3px;
+  border-radius: 2px;
+  border: 1px solid #d9d9d9;
+}
+.formContent input:focus,
+.formContent input:active,
+.formContent select:focus,
+.formContent select:active {
+  border: 1px solid #d9d9d9;
+  outline: none;
+}
+
+.formContent input.withError,
+.formContent select.withError,
+.formContent option.withError {
+  border: 1px solid #da5151;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formContent .errorMessage {
+  color: #da5151;
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}

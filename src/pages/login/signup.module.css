@@ -1,0 +1,52 @@
+.signup{
+    text-align: left;
+    z-index: 9000 !important;
+}
+.signup label{
+    display: block;
+}
+
+.signup input,
+.signup select,
+.signup option {
+    width: 100%;
+    height: 35px;
+    outline: none;
+    padding: 3px;
+    border-radius: 2px;
+    border: 1px solid #d9d9d9;
+}
+.signup input:focus,
+.signup input:active,
+.signup select:focus,
+.signup select:active {
+    border: 1px solid #d9d9d9;
+    outline: none;
+}
+
+.signup button{
+    background: #51BCDA;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+}
+.signup button:hover{
+    background: #51BCDA;
+    border: none;
+    outline: none;
+}
+
+.signup a {
+    margin-top: 10px;
+    color: #51BCDA;
+    position: absolute;
+    right: 20px;
+}
+
+.signup .errorMessage {
+    color: #da5151;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
